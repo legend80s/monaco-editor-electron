@@ -1,8 +1,8 @@
 {
-  "name": "@monaco-editor/react",
+  "name": "monaco-editor-electron",
   "version": "3.6.3",
-  "description": "Monaco editor wrapper for easy/one-line integration with React applications (e.g. powered by create-react-app) without need of webpack configuration files",
-  "author": "Suren Atoyan <contact@surenatoyan.com>",
+  "description": "Monaco editor wrapper in Electron for easy/one-line integration with React applications (e.g. powered by create-react-app) without need of webpack configuration files",
+  "author": "legend80s",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
     "lint": "npx eslint src",
     "build": "npx babel src --out-dir lib && cp ./src/index.d.ts ./lib/",
     "prepublish": "npm test && npm run lint && npm run build",
-    "test": "npx jest"
+    "test": "tnpx jest"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,6 @@
   },
   "homepage": "https://github.com/suren-atoyan/monaco-react#readme",
   "peerDependencies": {
-    "monaco-editor": "^0.20.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
@@ -83,8 +82,13 @@
       "/demo/"
     ]
   },
+  "tnpm": {
+    "mode": "yarn"
+  },
   "dependencies": {
+    "monaco-editor": "^0.20.0",
     "@babel/runtime": "^7.11.0",
+    "is-electron": "^2.2.0",
     "state-local": "^1.0.1"
   }
 }
