@@ -29,6 +29,12 @@
     "url": "https://github.com/suren-atoyan/monaco-react/issues"
   },
   "homepage": "https://github.com/suren-atoyan/monaco-react#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.11.0",
+    "is-electron": "^2.2.0",
+    "monaco-editor": "^0.20.0",
+    "state-local": "^1.0.1"
+  },
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -51,6 +57,7 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.18.3",
     "eslint-plugin-react-hooks": "2.4.0",
+    "git-commit-msg-linter": "^2.7.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "react": "^16.12.0",
@@ -84,11 +91,5 @@
   },
   "tnpm": {
     "mode": "yarn"
-  },
-  "dependencies": {
-    "monaco-editor": "^0.20.0",
-    "@babel/runtime": "^7.11.0",
-    "is-electron": "^2.2.0",
-    "state-local": "^1.0.1"
   }
 }
