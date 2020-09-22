@@ -1,4 +1,5 @@
 import { create as createState } from 'state-local';
+import isElectron from 'is-electron';
 
 import defaultConfig from '../config';
 import {
@@ -31,7 +32,7 @@ function init() {
   const state = getState(({ isInitialized }) => ({ isInitialized }));
 
   if (!state.isInitialized) {
-    if (window.monaco && window.monaco.editor) {
+    if (!isElectron() && window.monaco && window.monaco.editor) {
       return Promise.resolve(window.monaco);
     }
 
