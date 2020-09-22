@@ -5,7 +5,7 @@ Monaco Editor for React App in Electron. Forked from [@monaco-editor/react](http
 ## Usage
 
 ```sh
-npm install @monaco-editor/react --save
+npm install monaco-react-electron --save
 ```
 
 ## Documentation
