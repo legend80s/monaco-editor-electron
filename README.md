@@ -1,4 +1,4 @@
-# @ali/monaco-editor-electron
+# monaco-editor-electron
 
 > Monaco Editor for React App in Electron.
 
@@ -9,7 +9,7 @@ Forked from [@monaco-editor/react](https://www.npmjs.com/package/@monaco-editor/
 ## Usage
 
 ```sh
-npm install @ali/monaco-editor-electron --save
+npm install monaco-editor-electron --save
 ```
 
 ## Documentation

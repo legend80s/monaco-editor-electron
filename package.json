@@ -1,6 +1,6 @@
 {
-  "name": "@ali/monaco-editor-electron",
-  "version": "1.1.0",
+  "name": "monaco-editor-electron",
+  "version": "1.0.1",
   "description": "Monaco editor wrapper in Electron for easy/one-line integration with React applications (e.g. powered by create-react-app) without need of webpack configuration files",
   "author": "legend80s",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "lint": "npx eslint src",
     "build": "npx babel src --out-dir lib && cp ./src/index.d.ts ./lib/",
     "prepublish": "npm test && npm run lint && npm run build",
-    "test": "tnpx jest"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -88,9 +88,6 @@
       "/node_modules/",
       "/demo/"
     ]
-  },
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
   },
   "tnpm": {
     "mode": "yarn"
