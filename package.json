@@ -1,5 +1,5 @@
 {
-  "name": "monaco-editor-electron",
+  "name": "@ali/monaco-editor-electron",
   "version": "1.0.1",
   "description": "Monaco editor wrapper in Electron for easy/one-line integration with React applications (e.g. powered by create-react-app) without need of webpack configuration files",
   "author": "legend80s",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/legend80s/monaco-editor-electron.git"
+    "url": "git+https://code.alipay.com/anymock/monaco-react.git"
   },
   "keywords": [
     "monaco",
@@ -26,9 +26,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/legend80s/monaco-editor-electron/issues"
+    "url": "https://code.alipay.com/anymock/monaco-react/issues"
   },
-  "homepage": "https://github.com/legend80s/monaco-editor-electron#readme",
+  "homepage": "https://code.alipay.com/anymock/monaco-react#readme",
   "dependencies": {
     "@babel/runtime": "^7.11.0",
     "is-electron": "^2.2.0",
@@ -88,6 +88,9 @@
       "/node_modules/",
       "/demo/"
     ]
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
   },
   "tnpm": {
     "mode": "yarn"
