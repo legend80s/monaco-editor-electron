@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://code.alipay.com/anymock/monaco-react.git"
+    "url": "git+https://github.com/legend80s/monaco-editor-electron.git"
   },
   "keywords": [
     "monaco",
@@ -26,9 +26,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://code.alipay.com/anymock/monaco-react/issues"
+    "url": "https://github.com/legend80s/monaco-editor-electron/issues"
   },
-  "homepage": "https://code.alipay.com/anymock/monaco-react#readme",
+  "homepage": "https://github.com/legend80s/monaco-editor-electron#readme",
   "dependencies": {
     "@babel/runtime": "^7.11.0",
     "is-electron": "^2.2.0",
