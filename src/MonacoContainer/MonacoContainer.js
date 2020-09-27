@@ -21,7 +21,7 @@ const MonacoContainer = ({
     {!isEditorReady && <Loading content={loading} />}
     <div
       ref={_ref}
-      style={{ ...styles.fullWidth, ...(!isEditorReady && styles.hide) }}
+      style={{ ...(width ? { width } : styles.fullWidth), ...(!isEditorReady && styles.hide) }}
       className={className}
     />
   </section>
