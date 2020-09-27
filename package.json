@@ -1,6 +1,6 @@
 {
   "name": "monaco-editor-electron",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Monaco editor wrapper in Electron for easy/one-line integration with React applications (e.g. powered by create-react-app) without need of webpack configuration files",
   "author": "legend80s",
   "main": "lib/index.js",
