@@ -57,7 +57,7 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.18.3",
     "eslint-plugin-react-hooks": "2.4.0",
-    "git-commit-msg-linter": "^2.7.0",
+    "git-commit-msg-linter": "^3.0.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "react": "^16.12.0",
